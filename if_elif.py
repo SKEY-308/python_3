@@ -8,3 +8,11 @@ elif age == 10:
 
 else:
     print('You\'re too old, strange one')
+
+
+meaty = input('Do you eat meat? (y/n):')
+
+if meaty == 'y':
+    print('Here is the meaty menu...')
+else:
+    print('Here is the veggie menu...')
