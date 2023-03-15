@@ -1,4 +1,4 @@
-# For Loops
+# ------------------------- For Loops
 mens = ['ruy', 'gael', 'bron', 'patrick']
 
 # for man in mens:
@@ -17,7 +17,7 @@ for man in mens:
         print(man)
 
 
-# While loops
+# ------------------------- While loops
 age = 25
 num = 0
 
@@ -26,6 +26,9 @@ num = 0
 #     num += 1
 
 while num < age:
+    if num == 0:
+        num += 1
+        continue
     if num % 2 == 0:
         print(num)
     if num > 10:
