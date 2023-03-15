@@ -1,3 +1,4 @@
+# For Loops
 mens = ['ruy', 'gael', 'bron', 'patrick']
 
 # for man in mens:
@@ -14,3 +15,6 @@ for man in mens:
         break
     else:
         print(man)
+
+
+# While loops
