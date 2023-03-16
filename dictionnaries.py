@@ -10,3 +10,6 @@ print('ruy' in james_belts)
 print(james_belts.keys())
 
 print(list(james_belts.keys()))
+
+print(james_belts.values())
+print(list(james_belts.values()))
