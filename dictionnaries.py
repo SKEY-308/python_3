@@ -19,3 +19,7 @@ print(vals)
 print(vals.count('red'))
 
 print('Value pink, n\'existe pas et me retourn: ', vals.count('pinks'))
+
+# Ajout d'elm
+james_belts["aria"] = 'blue'
+print(james_belts)
