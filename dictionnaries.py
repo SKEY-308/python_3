@@ -12,4 +12,5 @@ print(james_belts.keys())
 print(list(james_belts.keys()))
 
 print(james_belts.values())
-print(list(james_belts.values()))
+vals = list(james_belts.values())
+print(vals)
