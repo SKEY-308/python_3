@@ -28,3 +28,24 @@ print(set_val)
 
 
 # ------------------- Exples of set and/or sort in functions --------------------------------
+def belts_count(dictionary):
+    belts = list(dictionary.values())
+    for belt in belts:
+        num = belts.count(belt)
+        print(f"There are {num} {belt} belts")
+
+
+severus_belts = {}
+
+while True:
+    name = input("Enter the name: ")
+    belt = input("Enter the belt: ")
+    severus_belts[name] = belt
+
+    another = input("Add another ? (y/n)")
+    if another == 'y':
+        continue
+    else:
+        break
+
+belts_count(severus_belts)
