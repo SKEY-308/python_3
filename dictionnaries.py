@@ -23,3 +23,29 @@ print('Value pink, n\'existe pas et me retourn: ', vals.count('pinks'))
 # Ajout d'elm
 james_belts["aria"] = 'blue'
 print(james_belts)
+
+
+person = dict(name="John", age=25, height='5ft')
+print(person)
+
+
+# ----------------------------------- Exples
+def intro(dictionary):
+    for key, val in dictionary.items():
+        print(f"I am {key} and I am {val} belts")
+
+
+severus_belts = {}
+
+while True:
+    name = input("Enter the name: ")
+    belt = input("Enter the belt: ")
+    severus_belts[name] = belt
+
+    another = input("Add another ? (y/n)")
+    if another == 'y':
+        continue
+    else:
+        break
+
+intro(severus_belts)
