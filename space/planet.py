@@ -18,7 +18,7 @@ class Planety:
     def commons(cls):
         return f'All planets are {cls.shape} because of gravity'
 
-     # Static Method
+    # Static Method
     @staticmethod
     def spin(speed='2000 miles per hour'):
         return f'The planet spins and spins at {speed}'
